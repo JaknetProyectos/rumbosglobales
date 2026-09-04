@@ -1,596 +1,596 @@
 {
   "cartPage": {
     "breadcrumb": {
-      "home": "Inicio",
-      "summary": "1. Confirmación",
-      "shippingPayment": "2. Envío y Pago"
+      "home": "Principal",
+      "summary": "1. Verificación",
+      "shippingPayment": "2. Entrega y Pago"
     },
     "success": {
-      "title": "¡Operación Realizada con Éxito!",
-      "description": "El cobro ha sido aprobado. El ambiente de red de tu servicio de hosting se encuentra en proceso de preparación para su habilitación.",
-      "paymentReference": "Clave de Pago:",
-      "paidAmount": "Total Pagado:",
-      "transactionStatus": "Estado de la Operación:",
-      "approved": "APROBADA",
-      "backToCatalog": "Volver al Catálogo"
+      "title": "¡Transacción Concluida con Éxito!",
+      "description": "El pago ha sido autorizado. La infraestructura de tu servidor de hospedaje se encuentra actualmente en fase de preparación para su activación.",
+      "paymentReference": "Número de Pago:",
+      "paidAmount": "Monto Liquidado:",
+      "transactionStatus": "Estado del Proceso:",
+      "approved": "AUTORIZADA",
+      "backToCatalog": "Regresar a la Oferta"
     },
     "empty": {
-      "title": "Tu carrito se encuentra vacío",
-      "description": "No encontramos servicios de hosting registrados en tu sesión actual.",
-      "goToStore": "Explorar el Catálogo"
+      "title": "Tu cesta se encuentra vacía",
+      "description": "No detectamos planes de hosting asociados a tu sesión en este momento.",
+      "goToStore": "Revisar la Tienda"
     },
     "order": {
-      "title": "Artículos en tu pedido",
-      "clear": "Vaciar Carrito"
+      "title": "Productos seleccionados",
+      "clear": "Vaciar Cesta"
     },
     "financial": {
-      "title": "Desglose de Pago",
-      "couponPlaceholder": "Código de descuento",
-      "applyCoupon": "Canjear",
-      "appliedCoupon": "Descuento {code} (-{discount}%)",
-      "remove": "Eliminar",
-      "couponInvalid": "El código introducido no es válido o ya caducó.",
-      "subtotal": "Subtotal de Artículos:",
-      "discount": "Descuento Aplicado:",
-      "netTotal": "Monto Total a Pagar:",
-      "tax": "Impuesto {tax}"
+      "title": "Resumen Financiero",
+      "couponPlaceholder": "Clave promocional",
+      "applyCoupon": "Validar",
+      "appliedCoupon": "Bonificación {code} (-{discount}%)",
+      "remove": "Quitar",
+      "couponInvalid": "El código ingresado carece de validez o ha expirado.",
+      "subtotal": "Suma Parcial:",
+      "discount": "Rebaja Aplicada:",
+      "netTotal": "Monto Final a Cubrir:",
+      "tax": "Cargo Fiscal {tax}"
     },
     "actions": {
-      "proceedToPayment": "Continuar al Pago",
-      "processing": "Verificando Transacción mediante Octano...",
-      "payAmount": "Realizar Pago {amount}",
-      "backToCart": "Editar pedido / Editar cupón"
+      "proceedToPayment": "Ir al Formulario de Pago",
+      "processing": "Procesando Verificación con Octano...",
+      "payAmount": "Abonar {amount}",
+      "backToCart": "Modificar pedido / Modificar cupones"
     },
     "errors": {
-      "declined": "La transacción fue rechazada por la institución bancaria.",
-      "connection": "Se produjo una falla de conexión con la pasarela de pagos."
+      "declined": "El cobro fue denegado por el banco emisor.",
+      "connection": "Ocurrió una interrupción de red con la pasarela de pagos."
     },
     "metadata": {
-      "couponApplied": "Descuento promocional aplicado",
-      "standardSale": "Compra digital regular"
+      "couponApplied": "Beneficio promocional registrado",
+      "standardSale": "Adquisición digital ordinaria"
     },
     "form": {
-      "buyerTitle": "Información de Facturación / Cliente",
-      "addressTitle": "Datos de Contacto y Habilitación",
-      "paymentTitle": "Pasarela de Cobro Segura",
-      "firstName": "Nombre(s) *",
-      "lastName": "Apellidos *",
-      "email": "Correo de contacto *",
-      "phone": "Teléfono Móvil (10 dígitos) *",
-      "company": "Organización / Empresa (Opcional)",
-      "streetAddress": "Calle, Número Exterior e Interior *",
+      "buyerTitle": "Información del Titular / Facturación",
+      "addressTitle": "Dirección y Configuración",
+      "paymentTitle": "Módulo de Pago Seguro",
+      "firstName": "Nombre *",
+      "lastName": "Primer y Segundo Apellido *",
+      "email": "Correo Electrónico *",
+      "phone": "Línea Telefónica (10 dígitos) *",
+      "company": "Empresa o Institución (Opcional)",
+      "streetAddress": "Dirección, Número Exterior y Num. Int. *",
       "streetAddressPlaceholder": "Av. Universidad 450, Int 4",
-      "neighborhood": "Colonia / Entre Calles (Opcional)",
+      "neighborhood": "Barrio, Colonia o Referencias (Opcional)",
       "neighborhoodPlaceholder": "Col. Vértiz Narvarte",
-      "city": "Delegación o Municipio *",
-      "state": "Estado / Entidad *",
+      "city": "Alcaldía o Municipio *",
+      "state": "Entidad / Estado *",
       "statePlaceholder": "CDMX",
-      "postalCode": "Código Postal *",
-      "country": "País",
+      "postalCode": "C.P. *",
+      "country": "Territorio",
       "mexico": "México (MX)",
-      "cardNumber": "Número de la Tarjeta (Visa / Mastercard) *",
+      "cardNumber": "Número Digital del Plástico (Visa / Mastercard) *",
       "cardNumberPlaceholder": "4152 0000 0000 0000",
-      "cardHolderName": "Nombre del Titular *",
-      "cardHolderPlaceholder": "Como se muestra en el plástico",
-      "expiryMonth": "Mes Venc. (MM) *",
+      "cardHolderName": "Titular de la Tarjeta *",
+      "cardHolderPlaceholder": "Tal como figura en el plástico",
+      "expiryMonth": "Mes de Expiración (MM) *",
       "expiryMonthPlaceholder": "05",
-      "expiryYear": "Año Venc. (AA) *",
+      "expiryYear": "Año de Expiración (AA) *",
       "expiryYearPlaceholder": "29",
-      "cvv": "Código de Seguridad (CVV) *",
+      "cvv": "Código Verificador (CVV) *",
       "cvvPlaceholder": "•••"
     },
     "security": {
-      "note": "Procesamiento protegido bajo estrictos protocolos de seguridad"
+      "note": "Operación resguardada bajo rígidos estándares de protección digital"
     },
     "images": {
       "etominAlt": "Octano",
-      "securePaymentAlt": "Pago protegido"
+      "securePaymentAlt": "Cobro resguardado"
     }
   },
   "customPlan": {
     "hero": {
       "titleHighlight": "Liquida",
-      "titleMain": "tu propuesta",
-      "subtitle": "Ajuste a la medida",
-      "description": "Una alternativa creada exclusivamente para tu empresa. Comprendemos que cada proyecto cuenta con dinámicas, plazos y metas particulares; por ello, estructuramos planes totalmente alineados a tus requerimientos.",
-      "includesTitle": "¿Qué integra esta propuesta?",
+      "titleMain": "tu cotización",
+      "subtitle": "Diseño personalizado",
+      "description": "Una opción formulada en exclusiva para tu firma. Entendemos que cada iniciativa plantea dinámicas, calendarios y metas particulares; por ello, diseñamos estrategias perfectamente adaptadas a tus necesidades.",
+      "includesTitle": "¿Qué elementos contempla esta propuesta?",
       "features": {
-        "item1": "Evaluación de tu modelo comercial actual",
-        "item2": "Detección de áreas para automatización",
-        "item3": "Creación de una solución personalizada",
-        "item4": "Puesta en marcha estratégica a la medida",
-        "item5": "Optimización orientada al alcance de objetivos"
+        "item1": "Diagnóstico de tu esquema comercial actual",
+        "item2": "Identificación de oportunidades de automatización",
+        "item3": "Diseño de un plan a la medida",
+        "item4": "Ejecución táctica adaptada",
+        "item5": "Mejora continua orientada al cumplimiento de metas"
       },
-      "investmentLabel": "Inversión",
-      "investmentValue": "Calculada según la escala del proyecto",
-      "investmentTax": "+ IVA"
+      "investmentLabel": "Monto de Inversión",
+      "investmentValue": "Determinada conforme a la dimensión del proyecto",
+      "investmentTax": "+ Impuestos (IVA)"
     },
     "form": {
-      "badge": "Soluciones Bespoke",
-      "title": "Información del Proyecto",
+      "badge": "Servicios Exclusivos",
+      "title": "Detalles del Proyecto",
       "firstNameLabel": "Nombre",
-      "firstNamePlaceholder": "Ingresa tu nombre",
+      "firstNamePlaceholder": "Escribe tu nombre",
       "lastNameLabel": "Apellidos",
-      "lastNamePlaceholder": "Ingresa tus apellidos",
-      "phoneLabel": "Teléfono Directo",
+      "lastNamePlaceholder": "Escribe tus apellidos",
+      "phoneLabel": "Teléfono de Contacto",
       "phonePlaceholder": "Ej. +52 55 1234 5678",
-      "emailLabel": "Dirección de Correo",
+      "emailLabel": "E-mail",
       "emailPlaceholder": "correo@ejemplo.com",
-      "quoteLabel": "Folio o Número de Cotización",
+      "quoteLabel": "Número o Referencia de Cotización",
       "quotePlaceholder": "Ej. COT-2026-001",
-      "amountLabel": "Importe a Liquidar",
+      "amountLabel": "Cantidad a Cubrir",
       "amountPlaceholder": "0.00",
-      "taxNote": "La suma total consignada debe ser exacta e incluir impuestos si así fue acordado con tu ejecutivo de cuenta."
+      "taxNote": "El importe capturado debe coincidir puntualmente e integrar impuestos si así se estipuló con tu asesor comercial."
     },
     "authorized": {
-      "description": "Por favor, ingresa los datos de contacto y el folio de cotización proporcionado por nuestro personal. El valor capturado debe corresponder fielmente al emitido en tu presupuesto."
+      "description": "Favor de proporcionar los datos del solicitante y la referencia de presupuesto entregada por nuestro equipo. El valor especificado debe ser idéntico al marcado en tu estimación."
     },
     "errors": {
-      "firstNameRequired": "El nombre es un campo requerido.",
-      "lastNameRequired": "El apellido es un campo requerido.",
-      "phoneRequired": "El teléfono es un campo requerido.",
-      "emailRequired": "El correo es un campo requerido.",
-      "quoteRequired": "El número de cotización o folio es requerido.",
-      "invalidAmount": "Ingresa un importe válido y superior a cero."
+      "firstNameRequired": "El nombre resulta indispensable.",
+      "lastNameRequired": "El apellido resulta indispensable.",
+      "phoneRequired": "El teléfono es un dato obligatorio.",
+      "emailRequired": "La dirección de correo es obligatoria.",
+      "quoteRequired": "La clave o folio de presupuesto es obligatoria.",
+      "invalidAmount": "Proporciona un valor válido que sea mayor a cero."
     },
     "buttons": {
-      "adding": "Añadiendo al carrito...",
-      "addToCart": "Avanzar a la pasarela"
+      "adding": "Agregando al carrito...",
+      "addToCart": "Proceder a la pasarela"
     }
   },
   "Emails": {
     "checkout": {
-      "errorMissingFields": "Faltan requerimientos obligatorios para gestionar su reserva",
-      "errorSending": "Fallo interno en el servidor",
+      "errorMissingFields": "Faltan datos obligatorios para procesar tu reservación",
+      "errorSending": "Inconveniente interno en el servidor",
       "client": {
-        "subject": "Confirmación de su reservación #{orderId} - {brandName}",
-        "title": "¡Reservación Confirmada!",
-        "subtitle": "¡Nos entusiasma contar con tu presencia! Tu reservación #{orderId} ha sido procesada de forma correcta y preparamos cada detalle para tu viaje."
+        "subject": "Confirmación de reservación #{orderId} - {brandName}",
+        "title": "¡Reservación Autorizada!",
+        "subtitle": "¡Nos alegra darte la bienvenida! Tu solicitud #{orderId} fue gestionada adecuadamente y preparamos los detalles de tu trayecto."
       },
       "business": {
-        "subject": "[Reservación] Orden #{orderId}",
-        "title": "Nueva Reservación Asignada",
-        "subtitle": "Se ha validado una nueva transacción por el valor de ${amount} MXN referente a experiencias y servicios turísticos."
+        "subject": "[Reservación] Orden número #{orderId}",
+        "title": "Nueva Reserva Registrada",
+        "subtitle": "Se aprobó un cobro por la suma de ${amount} MXN correspondiente a actividades y servicios turísticos."
       },
       "labels": {
-        "orderId": "Clave de Reservación",
-        "paymentDate": "Fecha de Transacción",
-        "buyerInfo": "Información del Pasajero",
-        "billingDetails": "Datos para Facturación",
-        "customer": "Pasajero",
-        "address": "Dirección de Contacto",
-        "company": "Agencia / Aliado Commercial",
-        "operationDetails": "Especificaciones del Itinerario",
-        "modulesSummary": "Resumen de Experiencias y Excursiones",
-        "totalPaid": "Monto Total Cobrado"
+        "orderId": "Número de Reserva",
+        "paymentDate": "Fecha del Pago",
+        "buyerInfo": "Datos del Viajero",
+        "billingDetails": "Información para Factura",
+        "customer": "Pasajero Titular",
+        "address": "Ubicación de Contacto",
+        "company": "Agencia / Socio Comercial",
+        "operationDetails": "Detalles de la Ruta",
+        "modulesSummary": "Resumen de Excursiones y Experiencias",
+        "totalPaid": "Suma Total Recibida"
       },
       "footer": {
-        "copyright": "© {year} {brandName}. Reservados todos los derechos.",
-        "specialty": "Agencia turística enfocada en la creación de viajes a la medida y experiencias de alto nivel."
+        "copyright": "© {year} {brandName}. Todos los derechos reservados.",
+        "specialty": "Agencia de viajes enfocada en la organización de itinerarios a la medida y servicios exclusivos."
       }
     },
     "contact": {
-      "errorMissingFields": "Faltan datos obligatorios (nombre, correo, mensaje)",
-      "errorSending": "Fallo interno en el servidor",
+      "errorMissingFields": "Faltan campos obligatorios (nombre, email, mensaje)",
+      "errorSending": "Inconveniente interno en el servidor",
       "business": {
         "subject": "[Contacto] {asunto} - {nombre}",
-        "title": "Nueva Solicitud Turística",
-        "subtitle": "Se ha recibido un nuevo mensaje de contacto o cotización mediante el portal web.",
-        "sectionLabel": "Información del Usuario"
+        "title": "Solicitud Turística Entrante",
+        "subtitle": "Se ha recibido una nueva consulta o solicitud de cotización desde la plataforma digital.",
+        "sectionLabel": "Datos del Usuario"
       },
       "client": {
-        "subject": "Hemos recibido su petición de viaje - {brandName}",
-        "title": "Mensaje Recibido Correctamente",
-        "subtitle": "Agradecemos tu contacto. Tu solicitud ha sido derivada a un asesor especializado en diseño de itinerarios.",
-        "sectionLabel": "Copia de su Consulta",
-        "automatedNotice": "Mensaje automático de recepción. Un especialista revisará tus notas y se comunicará a la brevedad."
+        "subject": "Recibimos tu solicitud de itinerario - {brandName}",
+        "title": "Solicitud Registrada Correctamente",
+        "subtitle": "Agradecemos tu mensaje. Tu consulta se transfirió a un consultor experto en diseño de viajes.",
+        "sectionLabel": "Copia de la Consulta",
+        "automatedNotice": "Notificación automática de acuse. Un especialista analizará tus requerimientos y te contactará en breve."
       },
       "fields": {
-        "name": "Nombre y Apellidos",
-        "email": "Dirección de Correo",
-        "message": "Mensaje / Consulta"
+        "name": "Nombre Completo",
+        "email": "E-mail de contacto",
+        "message": "Comentario / Consulta"
       },
       "footer": {
-        "copyright": "© {year} {brandName}. Reservados todos los derechos.",
-        "specialty": "Agencia turística enfocada en la creación de viajes a la medida y experiencias de alto nivel."
+        "copyright": "© {year} {brandName}. Todos los derechos reservados.",
+        "specialty": "Agencia de viajes enfocada en la organización de itinerarios a la medida y servicios exclusivos."
       }
     }
   },
   "header": {
-    "reservations": "Reservaciones",
+    "reservations": "Mis Reservas",
     "aria": {
-      "openMenu": "Desplegar menú",
-      "closeMenu": "Ocultar menú"
+      "openMenu": "Abrir menú",
+      "closeMenu": "Cerrar menú"
     },
     "nav": {
       "home": "Inicio",
       "about": "Nosotros",
       "store": "Catálogo",
-      "quote": "Diseña tu viaje"
+      "quote": "Planifica tu viaje"
     }
   },
   "home": {
     "hero": {
       "badge": "Turismo Preferencial",
       "title1": "México:",
-      "titleGradient": "Tu siguiente aventura inolvidable",
-      "description": "Itinerarios de viaje integrales que integran cultura, tradición, entorno natural y gastronomía respaldados por altos estándares de calidad.",
-      "cta": "Descubre Nuestras Rutas",
-      "imgAlt": "Representación de pirámide mexicana"
+      "titleGradient": "Tu próxima expedición memorable",
+      "description": "Rutas de viaje completas que combinan tradición, cultura, belleza natural y gastronomía, respaldadas por exigentes estándares de calidad.",
+      "cta": "Conoce Nuestras Experiencias",
+      "imgAlt": "Ilustración de una pirámide en México"
     },
     "about": {
-      "badge": "Quiénes Somos",
+      "badge": "Sobre Nosotros",
       "titleLine1": "Diseñamos travesías",
-      "titleHighlight": "en México",
-      "p1": "Somos una agencia especializada en la conceptualización, coordinación y realización de itinerarios turísticos en la República Mexicana. Nos enfocamos en ofrecer un servicio de primer nivel que fusiona historia, tradición, naturaleza, gastronomía y momentos únicos, adaptados a cada viajero.",
-      "p2": "Aseguramos viajes bien coordinados, confiables e imborrables, monitoreando cada detalle desde la fase previa hasta la conclusión del recorrido.",
-      "p3": "Buscamos convertir cada trayecto en un recuerdo inolvidable, aportando aprendizaje, valor y momentos especiales a nuestros viajeros."
+      "titleHighlight": "por México",
+      "p1": "Somos una firma enfocada en la planeación, logística y gestión de trayectos turísticos en territorio mexicano. Nos centramos en brindar un servicio de excelencia que combina patrimonio, costumbres, biodiversidad, cocina local y momentos inolvidables para cada usuario.",
+      "p2": "Garantizamos recorridos coordinados, seguros y memorables, supervisando cada aspecto desde la etapa previa hasta la conclusión de la ruta.",
+      "p3": "Buscamos transformar cada viaje en un recuerdo especial, sumando aprendizaje, valor y vivencias únicas a cada cliente."
     },
     "features": {
-      "titleLine1": "Transformamos Viajes en",
-      "titleHighlight": "Recuerdos Memorables",
+      "titleLine1": "Convertimos Viajes en",
+      "titleHighlight": "Momentos Inolvidables",
       "items": {
         "strategicItineraries": {
           "title": "Itinerarios a la Medida",
-          "text": "Estructurados según tus preferencias y perfil de viaje."
+          "text": "Diseñados a partir de tus metas y perfil de viaje."
         },
         "personalizedAttention": {
-          "title": "Asistencia Exclusiva",
-          "text": "Soporte constante en cada etapa del trayecto."
+          "title": "Atención Personalizada",
+          "text": "Acompañamiento continuo durante toda la ruta."
         },
         "integralExperiences": {
-          "title": "Experiencias Completas",
-          "text": "Integramos patrimonio, descanso y aprendizaje."
+          "title": "Experiencias Integrales",
+          "text": "Fusionamos patrimonio, descanso y aprendizaje."
         },
         "qualitySuppliers": {
-          "title": "Proveedores Seleccionados",
-          "text": "Filtros rigurosos en guías de turistas y servicios aliados."
+          "title": "Socios Calificados",
+          "text": "Filtros rigurosos para guías de turistas y aliados locales."
         },
         "optimizedLogistics": {
           "title": "Logística Eficiente",
-          "text": "Aprovechamos el tiempo en cada uno de tus traslados."
+          "text": "Maximizamos el tiempo en cada uno de tus traslados."
         },
         "adaptability": {
-          "title": "Flexibilidad de Planes",
-          "text": "Propuestas para diversos presupuestos y estilos de viaje."
+          "title": "Planes Adaptables",
+          "text": "Opciones ajustables a diversos presupuestos y enfoques."
         }
       }
     },
     "whyTrust": {
-      "badge": "Respaldo y Excelencia",
-      "titleLine1": "¿Por qué estructurar tu viaje",
+      "badge": "Confianza y Calidad",
+      "titleLine1": "¿Por qué organizar tu ruta",
       "titleHighlight": "con nosotros?",
-      "description": "Nos destacamos por desarrollar planes de viaje organizados y seguros, orientados a enriquecer tu experiencia a través de una logística minuciosa, guías expertos y proveedores validados en cada destino.",
-      "cta": "Saber más sobre nosotros",
-      "imgAlt": "Representación de las Barrancas del Cobre"
+      "description": "Nos caracterizamos por planificar opciones de viaje estructuradas y protegidas, pensadas para enriquecer tu travesía mediante una gestión atenta, guías cualificados y operadores aprobados en cada punto.",
+      "cta": "Más información sobre nosotros",
+      "imgAlt": "Imagen panorámica de las Barrancas del Cobre"
     },
     "steps": {
-      "badge": "Ruta de Trabajo",
-      "titleLine1": "Desde tu idea hasta la",
-      "titleHighlight": "experiencia final",
-      "description": "Creamos experiencias a la medida para materializar la ruta que siempre has deseado. Nuestro modelo integra planeación estratégica con una logística precisa para convertir una idea en un viaje fluido, protegido y memorable. Así construimos tu próxima aventura:",
-      "cta": "Solicitar presupuesto",
+      "badge": "Metodología",
+      "titleLine1": "Desde el primer plan hasta la",
+      "titleHighlight": "vivencia real",
+      "description": "Estructuramos experiencias personalizadas para concretar la ruta de tus sueños. Nuestro proceso alinea la planeación logística para transformar una idea en un viaje cómodo, seguro y fascinante. Así hacemos realidad tu proyecto:",
+      "cta": "Cotizar ahora",
       "items": {
         "connection": {
-          "title": "Contacto Initial",
-          "text": "Iniciamos con una charla. Platícanos tus destinos deseados, fechas estimadas y presupuesto; comprender tus ideas es el punto de partida para estructurar el viaje."
+          "title": "Charla Inicial",
+          "text": "Comenzamos conversando sobre tus planes. Comparte tus destinos de interés, fechas aproximadas y estimación presupuestal; conocer tus metas nos permite estructurar la mejor ruta."
         },
         "design": {
-          "title": "Planificación",
-          "text": "Convertimos tus ideas en una propuesta formal. Elaboramos un itinerario personalizado que optimiza trayectos y asigna a los mejores aliados para asegurar un recorrido constante."
+          "title": "Estructuración",
+          "text": "Traducimos tus peticiones en un proyecto definitivo. Desarrollamos un itinerario exclusivo que eficienta tiempos y selecciona a los operadores ideales para garantizar fluidez."
         },
         "adjustment": {
-          "title": "Optimización",
-          "text": "Nada se confirma sin tu visto bueno. Ajustamos la propuesta conforme a tus comentarios hasta afinar los detalles y lograr el viaje perfecto."
+          "title": "Ajuste Fino",
+          "text": "Nada queda definitivo sin tu autorización. Modificamos el plan según tus comentarios hasta resolver cada aspecto y obtener la travesía ideal."
         },
         "travel": {
-          "title": "La Experiencia",
-          "text": "Del itinerario al viaje real. Viaja con la tranquilidad de contar con nuestro equipo coordinando cada fase para brindarte apoyo en todo instante."
+          "title": "El Viaje",
+          "text": "El plan se convierte en realidad. Viaja sabiendo que nuestro equipo coordina cada etapa para brindarte respaldo permanente."
         }
       }
     },
     "conditions": {
-      "titleLine1": "Términos del",
+      "titleLine1": "Condiciones del",
       "titleHighlight": "servicio",
-      "subtitle": "Para brindarte un viaje óptimo, te sugerimos revisar los siguientes puntos clave:",
+      "subtitle": "Para asegurarte una experiencia gratificante, te aconsejamos tomar en cuenta los siguientes puntos:",
       "items": {
-        "availability": "Todas las opciones ofrecidas quedan sujetas a cupo al confirmar la reserva",
-        "advanceBooking": "Sugerimos apartar con anticipación para asegurar lugares",
-        "itineraryAdjustments": "Los itinerarios pueden variar debido al clima, logística o eventos imprevistos",
-        "priceVariations": "Las tarifas pueden cambiar según la temporada, ocupación o ajustes personalizados.",
-        "additionalCosts": "Determinadas actividades opcionales podrían generar costos adicionales no contemplados inicialmente."
+        "availability": "Las alternativas mostradas quedan sujetas a disponibilidad al momento de pagar",
+        "advanceBooking": "Aconsejamos reservar con anticipación para asegurar lugares",
+        "itineraryAdjustments": "Los programas pueden cambiar por clima, factores logísticos o situaciones fortuitas",
+        "priceVariations": "Las tarifas sufren ajustes de acuerdo con la época, ocupación o modificaciones al plan.",
+        "additionalCosts": "Ciertas visitas opcionales podrían implicar costos extra no contemplados en el saldo inicial."
       },
-      "notIncludedTitleLine1": "¿Qué",
-      "notIncludedTitleHighlight": "no se incluye?",
-      "notIncludedSubtitle": "Para mayor transparencia, los siguientes rubros no forman parte del paquete salvo que se especifique:",
+      "notIncludedTitleLine1": "¿Qué elementos",
+      "notIncludedTitleHighlight": "no se incluyen?",
+      "notIncludedSubtitle": "En aras de mayor claridad, los rubros indicados no están contemplados salvo mención expresa:",
       "notIncludedItems": {
-        "transport": "Traslados al punto de partida",
-        "foodAndDrinks": "Consumo de alimentos y bebidas",
-        "tickets": "Entradas a parques, museos o sitios arqueológicos",
-        "personalExpenses": "Compras o gastos individuales en la ruta",
-        "tips": "Propinas a guías y personal de apoyo",
-        "extraActivities": "Tours fuera del plan programado"
+        "transport": "Transporte de origen al punto de inicio",
+        "foodAndDrinks": "Alimentos y bebidas durante el viaje",
+        "tickets": "Boletos de entrada a recintos, parques o reservas",
+        "personalExpenses": "Compras u otros gastos personales durante la ruta",
+        "tips": "Gratificaciones para guías y equipo operativo",
+        "extraActivities": "Tours o paseos ajenos al itinerario marcado"
       }
     },
     "categories": {
-      "titleLine1": "Descubre la Gran",
-      "titleHighlight": "Variedad de México",
-      "description": "Creamos recorridos que van más allá del turismo tradicional. Desde el legado histórico hasta la calidez de nuestros mares.",
-      "imgAlt": "Ilustración de luchador tradicional",
+      "titleLine1": "Explora la Diversidad de",
+      "titleHighlight": "Experiencias en México",
+      "description": "Diseñamos aventuras que superan la perspectiva turística común. Desde el legado histórico hasta la calidez de nuestras costas.",
+      "imgAlt": "Representación visual de un luchador mexicano",
       "items": {
         "heritage": {
-          "title": "Historia y Tradición",
-          "text": "Recorridos en centros históricos y zonas patrimoniales. Explora la arquitectura e historias que forjaron la riqueza del país."
+          "title": "Patrimonio e Historia",
+          "text": "Visitas a cascos históricos y recintos con valor patrimonial. Admira la arquitectura y memoria que sustentan la identidad nacional."
         },
         "ecoAdventure": {
-          "title": "Naturaleza y Aventura",
-          "text": "Turismo de aventura y ecoturismo. Explora parajes naturales impresionantes en su estado más puro."
+          "title": "Ecoturismo y Aventura",
+          "text": "Actividades al aire libre y ecoturismo. Recorre parajes naturales espectaculares guardados en su esencia originaria."
         },
         "pastTraces": {
-          "title": "Raíces Ancestrales",
-          "text": "Visitas a zonas arqueológicas. Recorridos guiados por especialistas en recintos culturales con enfoque educativo."
+          "title": "Legado Prehispánico",
+          "text": "Excursiones a zonas arqueológicas. Recorridos con guías especializados orientados a la divulgación cultural."
         },
         "horizons": {
-          "title": "Costas del Pacífico y del Caribe",
-          "text": "Actividades marinas y tours de playa. Descanso y entretenimiento en los puntos costeros más representativos."
+          "title": "Litorales del Pacífico y del Caribe",
+          "text": "Paseos náuticos y jornadas de playa. Relax y entretenimiento en los puntos costeros con mayor tradición."
         },
         "flavorRoutes": {
-          "title": "Sabores Tradicionales",
-          "text": "Rutas gastronómicas y enológicas. Un recorrido para el paladar a través de mercados locales y gastronomía de autor."
+          "title": "Rutas de Sabor",
+          "text": "Experiencias gastronómicas y catas. Un recorrido culinario por plazas de abasto tradicionales y propuestas gastronómicas de autor."
         },
         "urbanPulse": {
-          "title": "Cultura Urbana y Arte",
-          "text": "Recorridos culturales y vida nocturna. Disfruta de las ciudades a través de sus galerías, exposiciones y vida cosmopolita."
+          "title": "Vida Urbana y Arte",
+          "text": "Eventos culturales y ambiente nocturno. Experimenta la dinámica de las metrópolis a través de galerías, muestras y vida urbana."
         }
       }
     },
     "notice": {
-      "p1": "La totalidad de los servicios están sujetos a espacio, por lo que sugerimos agendar su experiencia con un mínimo de 7 días de anticipación.",
-      "p2": "Un agente se comunicará con usted para validar la disponibilidad o presentar alternativas de fechas adaptadas a su agenda."
+      "p1": "Todos los servicios dependen de la disponibilidad del sitio, por lo que sugerimos programar tu visita con un plazo mínimo de 7 días de anticipación.",
+      "p2": "Un agente se pondrá en contacto para verificar espacios o sugerirte fechas alternativas compatibles con tus planes."
     }
   },
   "footer": {
-    "securePayments": "Pagos protegidos",
-    "paymentMethodsAlt": "Visa, Mastercard",
-    "copyright": "{year} Rumbos Globales. Todos los derechos reservados.",
-    "tagline": "Rutas y viajes inolvidables a lo largo del territorio mexicano.",
+    "securePayments": "Pagos seguros",
+    "paymentMethodsAlt": "Aceptamos Visa y Mastercard",
+    "copyright": "{year} Rumbos Globales. Reservados todos los derechos.",
+    "tagline": "Viajes y experiencias memorables a lo largo del territorio nacional.",
     "links": {
       "privacyPolicy": "POLÍTICA DE PRIVACIDAD",
       "termsAndReturns": "TÉRMINOS Y CONDICIONES",
-      "refundPolicy": "POLÍTICA DE REEMBOLSOS Y DEVOLUCIONES"
+      "refundPolicy": "POLÍTICA DE DEVOLUCIONES Y REEMBOLSOS"
     }
   },
   "contactForm": {
     "fields": {
-      "fullName": "Nombre y apellido",
-      "email": "Correo de contacto",
-      "phone": "Número telefónico",
-      "messageLabel": "Mensaje",
-      "messagePlaceholder": "Escribe tu solicitud *"
+      "fullName": "Nombre y apellidos",
+      "email": "Correo electrónico",
+      "phone": "Número de teléfono",
+      "messageLabel": "Consulta / Mensaje",
+      "messagePlaceholder": "Describe tu consulta *"
     },
     "buttons": {
-      "send": "Enviar consulta",
-      "sending": "Enviando...",
+      "send": "Enviar mensaje",
+      "sending": "Procesando envío...",
       "sent": "Enviado con éxito"
     },
     "feedback": {
-      "success": "¡Muchas gracias! Hemos recibido tu mensaje correctamente.",
-      "errorDefault": "Se presentó un inconveniente al enviar tu mensaje."
+      "success": "¡Agradecemos tu mensaje! Lo hemos recibido adecuadamente.",
+      "errorDefault": "Surgió un problema técnico al enviar la información."
     },
     "info": {
-      "badge": "Atención Personalizada",
-      "titleLine1": "Estamos listos para",
-      "titleLine2": "atenderte",
-      "description": "¿Requieres detalles adicionales sobre las rutas o tu reservación? Llena el formulario y nuestro personal se comunicará contigo rápidamente."
+      "badge": "Atención Directa",
+      "titleLine1": "Estamos disponibles para",
+      "titleLine2": "ayudarte",
+      "description": "¿Requieres detalles adicionales sobre las experiencias o tu reservación? Completa el formulario y nuestro personal te contactará rápidamente."
     }
   },
   "cotizaPage": {
     "metadata": {
-      "title": "Cotiza tu experiencia | Rumbos Globales",
-      "description": "Comparte tus fechas, preferencias e idea de presupuesto para estructurar una ruta a tu medida."
+      "title": "Presupuesta tu experiencia | Rumbos Globales",
+      "description": "Envíanos tus fechas, preferencias e idea de inversión para estructurar un itinerario a la medida."
     },
     "hero": {
-      "badge": "Planeación a la Medida",
-      "titleLine1": "Proyectemos tu",
-      "titleLine2": "Viaje Soñado",
-      "description": "Desde la idea inicial hasta la coordinación logística; estructuramos travesías a la medida de tu perfil y expectativas en México."
+      "badge": "Diseño Exclusivo",
+      "titleLine1": "Planeemos la",
+      "titleLine2": "Experiencia Perfecta",
+      "description": "Desde la idea preliminar hasta el control operativo; formulamos viajes personalizados según tus prioridades e inquietudes."
     },
     "philosophy": {
-      "badge": "Atención Exclusiva",
-      "titleLine1": "Iniciemos la Creación de tu",
-      "titleLine2": "Ruta Ideal",
-      "description": "En Planes Turísticos México entendemos que el verdadero valor de viajar reside en el significado de las vivencias. Creemos que cada trayecto debe reflejar la esencia del viajero, por lo cual ponemos a tu disposición nuestro diseño logístico para armar experiencias personalizadas.",
+      "badge": "Servicio Exclusivo",
+      "titleLine1": "Comencemos a Diseñar tu",
+      "titleLine2": "Itinerario Único",
+      "description": "En Planes Turísticos México consideramos que el encanto de viajar radica en el impacto de las experiencias. Creemos que cada recorrido debe manifestar la personalidad del viajero, por lo cual brindamos nuestro soporte para organizar itinerarios únicos.",
       "features": {
-        "securityTitle": "Seguridad en Todo Momento",
-        "securityDesc": "Operación de campo validada.",
-        "flexibilityTitle": "Flexibilidad de Agenda",
-        "flexibilityDesc": "Ajustado a tus tiempos de viaje."
+        "securityTitle": "Tranquilidad Garantizada",
+        "securityDesc": "Operación de campo supervisada.",
+        "flexibilityTitle": "Adaptabilidad de Tiempos",
+        "flexibilityDesc": "Configurado según tus fechas disponibles."
       }
     },
     "howItWorks": {
-      "title": "¿Cuál es la dinámica?",
-      "step1": "Proporciona tus fechas y presupuesto estimado en el formulario.",
-      "step2": "Un diseñador de viajes desarrollará una propuesta según tus preferencias.",
-      "step3": "Obtén tu clave de reservación para asegurar el viaje."
+      "title": "¿Cómo es el proceso?",
+      "step1": "Indica tus fechas tentativas y estimado de presupuesto en la solicitud.",
+      "step2": "Un especialista elaborará un plan ajustado a tus peticiones.",
+      "step3": "Recibe tu clave de confirmación para apartar el viaje."
     },
     "checkout": {
-      "titleLine1": "Concluye tu reservación y",
-      "titleLine2": "asegura tus lugares",
-      "description": "Si ya recibiste tu presupuesto personalizado y revisaste el itinerario propuesta, estás a un paso de confirmar tu experiencia. Captura el ID de Documentación proporcionado para realizar el pago seguro.",
-      "button": "Pagar cotización"
+      "titleLine1": "Finaliza tu solicitud y",
+      "titleLine2": "garantiza tu lugar",
+      "description": "Si recibiste tu cotización y aprobaste el plan sugerido, te encuentras muy cerca de confirmar tu reservación. Escribe el ID del Documento facilitado para procesar el pago seguro.",
+      "button": "Liquidar presupuesto"
     }
   },
   "advancedContactForm": {
-    "badge": "Proyecta tu Travesía",
-    "titleStart": "Diseñemos tu",
-    "titleHighlight": "viaje a la medida",
-    "subtitle": "Ingresa las especificaciones del viaje y prepararemos una propuesta acorde a tus preferencias.",
+    "badge": "Diseña tu Recorrido",
+    "titleStart": "Planifiquemos tu",
+    "titleHighlight": "experiencia personalizada",
+    "subtitle": "Ingresa los requerimientos de tu viaje y elaboraremos un proyecto conforme a tus preferencias.",
     "fields": {
       "fullName": {
-        "label": "Nombre y apellido",
+        "label": "Nombre y apellidos",
         "placeholder": "Ej. María González"
       },
       "origin": {
-        "label": "Ciudad o Estado de origen",
+        "label": "Lugar o Ciudad de procedencia",
         "placeholder": "Ej. CDMX, Guadalajara..."
       },
       "email": {
-        "label": "Correo de contacto",
+        "label": "E-mail de contacto",
         "placeholder": "tu@email.com"
       },
       "phone": {
-        "label": "Teléfono / Móvil",
+        "label": "Teléfono / Celular",
         "placeholder": "Ej. 55 1234 5678"
       },
       "destination": {
-        "label": "Destino deseado",
+        "label": "Destino de interés",
         "placeholder": "Ej. Riviera Maya, Oaxaca..."
       },
       "date": {
-        "label": "Fecha proyectada"
+        "label": "Fecha tentativa"
       },
       "travelers": {
-        "label": "Número de pasajeros",
+        "label": "Cantidad de viajeros",
         "placeholder": "Ej. 2 adultos, 1 menor"
       },
       "details": {
-        "label": "Describe tu viaje ideal / Especificaciones",
-        "placeholder": "Ej. Nos interesa una ruta gastronómica, hospedaje frente al mar y transporte privado..."
+        "label": "Plantéanos tu ruta ideal / Preferencias",
+        "placeholder": "Ej. Deseamos una ruta gastronómica, hospedaje frente a la playa y traslados privados..."
       }
     },
     "buttons": {
-      "send": "Solicitar Cotización",
-      "processing": "Generando Propuesta...",
-      "sent": "Petición Enviada"
+      "send": "Enviar Petición",
+      "processing": "Procesando Propuesta...",
+      "sent": "Solicitud Entregada"
     },
     "feedback": {
-      "success": "¡Muchas gracias! Tu solicitud ha sido registrada correctamente.",
-      "errorDefault": "Surgió un inconveniente al procesar tu cotización. Favor de reintentar."
+      "success": "¡Muchas gracias! Tu requerimiento ha sido registrado de forma correcta.",
+      "errorDefault": "Se produjo un error al gestionar la cotización. Favor de intentar nuevamente."
     },
     "emailFormat": {
-      "subjectPrefix": "Petición de Cotización",
-      "defaultDestination": "Viaje personalizado",
-      "header": "SOLICITUD DE PRESUPUESTO DE VIAJE",
-      "clientData": "DATOS DEL SOLICITANTE",
+      "subjectPrefix": "Solicitud de Presupuesto",
+      "defaultDestination": "Travesía personalizada",
+      "header": "SOLICITUD DE COTIZACIÓN DE VIAJE",
+      "clientData": "INFORMACIÓN DEL SOLICITANTE",
       "name": "Nombre",
-      "origin": "Lugar de Origen",
-      "email": "Correo",
-      "phone": "Teléfono",
-      "tripDetails": "INFORMACIÓN DEL VIAJE",
-      "destination": "Destino seleccionado",
-      "date": "Fecha estimada",
+      "origin": "Procedencia",
+      "email": "E-mail",
+      "phone": "Contacto Telefónico",
+      "tripDetails": "ESPECIFICACIONES DEL VIAJE",
+      "destination": "Destino elegido",
+      "date": "Fecha aproximada",
       "travelers": "Pasajeros",
-      "additionalNotes": "NOTAS Y PREFERENCIAS DEL VIAJE",
-      "notSpecified": "Sin especificar",
-      "noDetails": "Sin notas adicionales."
+      "additionalNotes": "NOTAS Y REQUERIMIENTOS ESPECIALES",
+      "notSpecified": "No indicado",
+      "noDetails": "Sin observaciones adicionales."
     }
   },
   "aboutUs": {
     "hero": {
       "badge": "Rumbos Globales",
-      "titleHighlight": "Tu Acompañante de Confianza",
+      "titleHighlight": "Tu Aliado Exclusivo",
       "titleRest": "en México",
-      "description": "En una nación llena de diversidad, viajar requiere una organización acertada. Nos especializamos en convertir recorridos tradicionales en momentos significativos. Nuestra meta es sencilla: coordinar cada aspecto del itinerario para que te concentres en disfrutar México."
+      "description": "En un país repleto de contrastes, coordinar una ruta exige precisión. Nos dedicamos a elevar travesías convencionales en momentos de alto valor. Nuestro propósito es simple: coordinar cada aspecto logístico para que disfrutes de tu viaje por México."
     },
     "architects": {
-      "badge": "Presencia Nacional",
-      "titleStart": "Creadores de Experiencias en la",
+      "badge": "Cobertura Nacional",
+      "titleStart": "Creadores de Rutas en la",
       "titleHighlight": "República Mexicana.",
-      "paragraph1": "Somos una empresa especializada en la creación de itinerarios turísticos integrales por todo México. Más allá de llevarte a un destino, buscamos brindarte experiencias de alto nivel que entrelazan cultura, naturaleza, historia y entretenimiento.",
-      "paragraph2": "Cuidamos meticulosamente cada detalle, desde el primer contacto hasta el cierre de la experiencia, ofreciendo viajes protegidos, organizados y enriquecedores.",
-      "paragraph3": "Trabajamos para convertir cada recorrido en un recuerdo especial que aporte contexto cultural y valor a nuestros viajeros.",
-      "imageAlt": "Palacio de Bellas Artes"
+      "paragraph1": "Somos una empresa especializada en el diseño y ejecución de experiencias turísticas integrales a lo largo de México. Más allá de llevarte a un lugar, procuramos ofrecerte momentos enriquecedores que mezclan arte, naturaleza, raíces históricas y recreación.",
+      "paragraph2": "Supervisamos minuciosamente cada fase, desde el primer contacto hasta el cierre de la experiencia, garantizando traslados seguros, eficaces y significativos.",
+      "paragraph3": "Nos enfocamos en transformar cada viaje en un recuerdo especial que aporte sentido y valor a nuestros usuarios.",
+      "imageAlt": "Fotografía del Palacio de Bellas Artes"
     },
     "values": {
-      "titleStart": "Nuestros principios",
-      "titleHighlight": "fundamentales",
-      "subtitle": "Bases de operación que garantizan excelencia en tus travesías por el país.",
+      "titleStart": "Principios de nuestra",
+      "titleHighlight": "operación",
+      "subtitle": "Bases de gestión que respaldan la excelencia en cada viaje por el país.",
       "items": [
         {
-          "title": "Experiencia en Destino",
-          "text": "Trabajamos en conjunto con guías calificados y equipos orientados al servicio con amplia preparación cultural."
+          "title": "Conocimiento en Terreno",
+          "text": "Colaboramos con guías acreditados y equipos con clara orientación al cliente y sólidos conocimientos."
         },
         {
-          "title": "Planificación Preventiva",
-          "text": "Diseñamos una logística bien coordinada para reducir imprevistos que puedan interferir en tus traslados."
+          "title": "Planificación Eficaz",
+          "text": "Organizamos una estructura logística sólida para mitigar Imprevistos en tus desplazamientos."
         },
         {
-          "title": "Cumplimiento y Puntualidad",
-          "text": "Respetamos los horarios programados, valorando tu tiempo en cada visita."
+          "title": "Puntualidad y Compromiso",
+          "text": "Cumplimos con las agendas pautadas, respetando tu tiempo durante las visitas."
         },
         {
-          "title": "Soporte Continuo",
-          "text": "Mantenemos comunicación fluida antes, durante y después del servicio, brindando atención directa en todo momento."
+          "title": "Asistencia Permanente",
+          "text": "Garantizamos comunicación abierta antes, durante y después del servicio, dando seguimiento oportuno en todo momento."
         },
         {
-          "title": "Estándares de Calidad",
-          "text": "Evaluamos constantemente a cada proveedor enfocado en la seguridad y confort de los visitantes."
+          "title": "Estándares de Excelencia",
+          "text": "Monitoreamos de forma constante a cada operador priorizando la protección y el confort del visitante."
         }
       ]
     },
     "philosophy": {
       "badge": "Nuestra Filosofía",
       "title": "¿Qué nos motiva?",
-      "prevSlide": "Anterior",
-      "nextSlide": "Siguiente"
+      "prevSlide": "Atrás",
+      "nextSlide": "Adelante"
     },
     "slides": {
       "mission": {
-        "category": "Misión",
-        "quote": "«Convertir el turismo en México en vivencias inolvidables y enriquecedoras.»",
-        "description": "Nuestra misión es estructurar y realizar itinerarios turísticos de alta calidad que combinen historia, naturaleza y gastronomía. Nos enfocamos en cuidar los aspectos logísticos para garantizar trayectos protegidos, detallados y personalizados que muestren el valor de la República Mexicana."
+        "category": "Propósito",
+        "quote": "«Transformar la travesía por México en recuerdos inolvidables y memorables.»",
+        "description": "Nuestra misión radica en planificar y operar servicios turísticos de alta calidad que conjuguen cultura, entorno natural y gastronomía. Nos ocupamos de la logística para garantizar recorridos seguros, cuidados y personalizados que muestren la riqueza de México."
       },
       "vision": {
-        "category": "Visión",
-        "quote": "«Posicionarnos como referentes en el desarrollo de experiencias de viaje personalizadas en México, destacados por nuestra capacidad logística y servicio.»",
-        "description": "Buscamos establecernos como la primera opción para quienes requieren organización y exclusividad, fortaleciendo nuestra red de proveedores y herramientas de coordinación para resaltar el valor de México bajo altos estándares."
+        "category": "Aspiración",
+        "quote": "«Convertirnos en referentes dentro del diseño de viajes exclusivos en México, destacados por nuestra excelencia logística y atención.»",
+        "description": "Buscamos consolidarnos como la alternativa preferida para viajeros que valoran la organización y la exigencia, ampliando nuestros socios comerciales y metodologías para resaltar los encantos del país bajo estándares exigentes."
       },
       "objectives": {
-        "category": "Objetivos Estratégicos",
-        "quote": "«Para mantener nuestra visión, trabajamos bajo las siguientes metas operativas:»",
+        "category": "Metas Operativas",
+        "quote": "«Para concretar nuestra visión, trabajamos conforme a los siguientes objetivos estratégicos:»",
         "list": [
-          "Diseño Personalizado",
-          "Eficiencia Logística",
+          "Planes Exclusivos",
+          "Optimización Logística",
           "Garantía de Confianza",
-          "Valor Cultural",
-          "Flexibilidad de Oferta",
-          "Satisfacción del Cliente"
+          "Aporte Cultural",
+          "Versatilidad de Servicio",
+          "Satisfacción Total del Usuario"
         ]
       }
     },
     "contactSection": {
-      "titleStart": "¿Listo para comenzar tu",
-      "titleHighlight": "siguiente recorrido?",
-      "subtitle": "Nuestros servicios se gestionan según la disponibilidad del destino, por lo que recomendamos realizar la reserva con un mínimo de 7 días de anticipación."
+      "titleStart": "¿Listo para organizar tu",
+      "titleHighlight": "siguiente experiencia?",
+      "subtitle": "Nuestros itinerarios están condicionados a la disponibilidad del destino, por lo que aconsejamos realizar la confirmación con al menos 7 días de anticipación."
     }
   },
   "toursPage": {
     "hero": {
-      "badge": "Oferta de Experiencias",
-      "titleStart": "Encuentra tu",
-      "titleHighlight": "siguiente recorrido",
-      "description": "Descubre actividades pensadas para diferentes estilos de viaje. Desde paseos culturales y áreas naturales hasta recorridos gastronómicos.",
-      "noticeTitle": "Aviso importante",
-      "noticeText": "Los servicios dependen de la disponibilidad del lugar. Te sugerimos realizar la reservación con al menos",
+      "badge": "Catálogo de Experiencias",
+      "titleStart": "Descubre tu",
+      "titleHighlight": "próxima ruta",
+      "description": "Explora opciones formuladas para distintas formas de viajar. Desde recorridos culturales y reservas naturales hasta experiencias gastronómicas.",
+      "noticeTitle": "Aviso relevante",
+      "noticeText": "Las plazas están sujetas a disponibilidad en el sitio. Te recomendamos agendar tu reserva con un margen de",
       "noticeHighlight": "7 días de anticipación",
-      "noticeAction": "Un asesor se comunicará para confirmar tu lugar."
+      "noticeAction": "Un consultor te contactará para asegurar tu cupo."
     },
     "filters": {
-      "title": "Filtros",
-      "reset": "Restablecer",
-      "searchLabel": "Buscar por nombre",
+      "title": "Filtros de Búsqueda",
+      "reset": "Limpiar",
+      "searchLabel": "Búsqueda por título",
       "searchPlaceholder": "Ej. Monte Albán...",
-      "stateLabel": "Entidad / Región",
-      "allStates": "Todas las entidades",
-      "minPriceLabel": "Precio Mínimo ($MXN)",
+      "stateLabel": "Región / Estado",
+      "allStates": "Todas las regiones",
+      "minPriceLabel": "Precio Base ($MXN)",
       "minPricePlaceholder": "Ej. 500",
-      "sortLabel": "Ordenar por",
+      "sortLabel": "Organizar por",
       "sortOptions": {
         "newest": "Novedades",
-        "priceAsc": "Precio: Menor a Mayor",
-        "priceDesc": "Precio: Mayor a Menor",
-        "durationAsc": "Duración: Menor a Mayor",
-        "durationDesc": "Duración: Mayor a Menor",
+        "priceAsc": "Precio: De menor a mayor",
+        "priceDesc": "Precio: De mayor a menor",
+        "durationAsc": "Duración: De menor a mayor",
+        "durationDesc": "Duración: De mayor a menor",
         "titleAsc": "Nombre: A - Z",
         "titleDesc": "Nombre: Z - A"
       }
@@ -598,77 +598,77 @@
     "results": {
       "showing": "Mostrando",
       "of": "de",
-      "experiences": "opciones",
+      "experiences": "resultados",
       "page": "Página",
       "ofPage": "de"
     },
     "states": {
-      "errorTitle": "Ocurrió un inconveniente al cargar las opciones",
-      "retry": "Reintentar",
-      "emptyTitle": "No se encontraron experiencias disponibles",
-      "emptySubtitle": "Ajusta tus parámetros de búsqueda o limpia los filtros para obtener más resultados."
+      "errorTitle": "Ocurrió un error al obtener las opciones",
+      "retry": "Intentar de nuevo",
+      "emptyTitle": "No se encontraron experiencias que coincidan",
+      "emptySubtitle": "Ajusta los parámetros de tu búsqueda o restablece los filtros para ver más opciones."
     },
     "card": {
-      "featured": "Recomendado",
+      "featured": "Sugerido",
       "hours": "hrs",
-      "from": "A partir de",
-      "viewDetails": "Ver información"
+      "from": "Desde",
+      "viewDetails": "Ver información detallada"
     },
     "pagination": {
-      "prev": "Anterior",
-      "next": "Siguiente"
+      "prev": "Atrás",
+      "next": "Adelante"
     }
   },
   "tourDetailPage": {
     "states": {
-      "loading": "Obteniendo información de la experiencia...",
+      "loading": "Cargando detalles de la experiencia...",
       "notFoundTitle": "Experiencia no disponible",
-      "notFoundDescription": "No fue posible localizar el tour seleccionado. Es posible que el enlace no esté activo o el recorrido ya no se encuentre disponible.",
-      "exploreOtherTours": "Ver catálogo de tours",
-      "errorTitle": "Error al consultar la experiencia",
-      "retry": "Reintentar"
+      "notFoundDescription": "No logramos ubicar el tour solicitado. Podría deberse a que el enlace venció o el recorrido quedó fuera de disponibilidad.",
+      "exploreOtherTours": "Explorar catálogo de experiencias",
+      "errorTitle": "Error al obtener la experiencia",
+      "retry": "Intentar de nuevo"
     },
     "breadcrumb": {
-      "backToTours": "Regresar a la lista de tours"
+      "backToTours": "Volver al listado de experiencias"
     },
     "hero": {
-      "featuredBadge": "Ruta Recomendada"
+      "featuredBadge": "Experiencia Destacada"
     },
     "details": {
-      "location": "Lugar",
-      "duration": "Tiempo estimado",
+      "location": "Ubicación",
+      "duration": "Duración aproximada",
       "hours": "horas",
-      "highlightsTitle": "Lo más destacado"
+      "highlightsTitle": "Puntos clave"
     },
     "itinerary": {
-      "title": "Itinerario del Recorrido",
-      "noteLabel": "Aviso"
+      "title": "Programa de la Actividad",
+      "noteLabel": "Nota importante"
     },
     "includesExcludes": {
-      "includesTitle": "Servicios incluidos",
-      "excludesTitle": "Servicios no incluidos",
-      "notSpecified": "Sin especificar"
+      "includesTitle": "Elementos incluidos",
+      "excludesTitle": "Elementos no incluidos",
+      "notSpecified": "No especificado"
     },
     "booking": {
-      "pricePerPerson": "Costo individual",
-      "dateLabel": "Fecha del recorrido",
-      "peopleLabel": "Número de asistentes",
-      "personSingular": "asistente",
-      "personPlural": "asistentes",
-      "estimatedTotal": "Importe estimado",
-      "addToCart": "Añadir al Carrito",
-      "addedSuccess": "¡Añadido Exitosamente!"
+      "pricePerPerson": "Tarifa por persona",
+      "dateLabel": "Fecha programada",
+      "peopleLabel": "Número de participantes",
+      "personSingular": "participante",
+      "personPlural": "participantes",
+      "estimatedTotal": "Precio total estimado",
+      "addToCart": "Agregar al Carrito",
+      "addedSuccess": "¡Agregado Exitosamente!"
     },
     "logistics": {
-      "startTime": "Horario de salida",
-      "meetingPoint": "Punto de encuentro"
+      "startTime": "Hora de inicio",
+      "meetingPoint": "Lugar de reunión"
     },
     "related": {
-      "subheading": "Descubre más opciones",
-      "heading": "Recorridos similares en",
-      "viewAll": "Ver lista completa",
-      "from": "A partir de",
-      "viewDetails": "Ver detalles"
+      "subheading": "Revisa más opciones",
+      "heading": "Experiencias similares en",
+      "viewAll": "Ver todas las opciones",
+      "from": "Desde",
+      "viewDetails": "Ver detalles completos"
     }
   }
 }
