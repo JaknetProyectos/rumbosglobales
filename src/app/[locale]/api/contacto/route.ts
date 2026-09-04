@@ -4,7 +4,7 @@ import { getTranslations } from "next-intl/server";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-const SUPPORT_EMAIL = "operar@vexora.com.mx";
+const SUPPORT_EMAIL = "hello@rumbosglobales.com";
 const BRAND_NAME = "Rumbos Globales";
 const BRAND_URL = "https://rumbosglobales.com/es";
 const BRAND_LOGO = "https://rumbosglobales.com/logo-title.png";
