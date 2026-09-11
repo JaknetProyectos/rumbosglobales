@@ -355,9 +355,9 @@
     "copyright": "{year} Rumbos Globales. Reservados todos los derechos.",
     "tagline": "Viajes y experiencias memorables a lo largo del territorio nacional.",
     "links": {
-      "privacyPolicy": "POLÍTICA DE PRIVACIDAD",
-      "termsAndReturns": "TÉRMINOS Y CONDICIONES",
-      "refundPolicy": "POLÍTICA DE DEVOLUCIONES Y REEMBOLSOS"
+      "privacyPolicy": "Política de privacidad",
+      "termsAndReturns": "Términos y condiciones",
+      "refundPolicy": "Política de devoluciones y reembolsos"
     }
   },
   "contactForm": {

@@ -355,9 +355,9 @@
     "copyright": "{year} Rumbos Globales. All rights reserved.",
     "tagline": "Unforgettable routes and travel experiences throughout Mexico.",
     "links": {
-      "privacyPolicy": "PRIVACY NOTICE",
-      "termsAndReturns": "TERMS & CONDITIONS",
-      "refundPolicy": "REFUND & CANCELLATION POLICY"
+      "privacyPolicy": "Privacy Policy",
+      "termsAndReturns": "Terms and Conditions",
+      "refundPolicy": "Returns and Refunds Policy"
     }
   },
   "contactForm": {
